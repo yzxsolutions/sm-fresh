@@ -13,12 +13,12 @@ const FormContainer = styled(Stack)({
 });
 
 const InputRow = styled(Stack)({
-  direction: 'row',
+  flexDirection: 'row', // Use the actual CSS property
   gap: '32px',
   width: '100%',
   '@media (max-width: 768px)': {
-    flexDirection: 'column',
-    gap: '24px',
+    flexDirection: 'column', // Also update it here if needed
+    gap: '16px',
   },
 });
 
