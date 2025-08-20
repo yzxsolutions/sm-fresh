@@ -19,7 +19,6 @@ const ModalContainer = styled(Box)({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  position: 'relative',
 });
 
 const CloseButton = styled(IconButton)({
