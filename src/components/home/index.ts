@@ -1,0 +1,10 @@
+export { default as FeaturedProducts } from './FeaturedProducts';
+export { default as WhyChooseUs } from './WhyChooseUs';
+export { default as TestimonialsSlider } from './TestimonialsSlider';
+export { default as Hero } from './Hero';
+export { default as AboutUs } from './AboutUs';
+export { default as TestimonialSection } from './TestimonialSection';
+export { default as TestimonialCard } from './TestimonialCard';
+export { default as MobileSocialIcons } from './MobileSocialIcons';
+export { default as MobileShopButton } from './MobileShopButton';
+export { default as MobileBottomNav } from './MobileBottomNav';
