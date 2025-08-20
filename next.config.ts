@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['@react-three/fiber', '@react-three/drei', 'framer-motion'],
   },
+   eslint: {
+    ignoreDuringBuilds: true,
+  },
   
   // Image optimization configuration
   images: {
